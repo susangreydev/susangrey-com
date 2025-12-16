@@ -30,7 +30,7 @@ lightbox.addEventListener("click", function() {
 
 const expandedImage = document.createElement("img");
 expandedImage.src = "./0.png";
-expandedImage.style.maxHeight = "clamp(600px, 2vw, 800px)";
+expandedImage.style.maxHeight = "clamp(700px, 2vw, 900px)";
 expandedImage.style.margin = "clamp(3rem, 2vw, 5rem)";
 expandedImage.style.border = "2px solid rgb(255, 255, 255)"
 expandedImage.style.borderRadius = "20px";
