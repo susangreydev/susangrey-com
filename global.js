@@ -1,6 +1,6 @@
 function emailScript() {
 
-    navigator.clipboard.writeText("contact@susangrey.com").then(alert("⚠️ CONTACT@SUSANGREY.COM COPIED TO CLIPBOARD ⚠️"));
+    navigator.clipboard.writeText("contact@susangrey.com").then(alert("CONTACT@SUSANGREY.COM COPIED TO CLIPBOARD"));
 
     window.location("mailto:contact@susangrey.com");
 
