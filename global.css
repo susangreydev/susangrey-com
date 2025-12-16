@@ -46,6 +46,8 @@ body {
   justify-items: center;
   align-items: center;
 
+  margin-top: 2.5rem;
+
   font-size: 2rem;
 
 }
@@ -174,7 +176,7 @@ body {
 
   line-height: 4rem;
 
-  font-size: 2rem;
+  font-size: 3rem;
 
 }
 
@@ -188,6 +190,8 @@ body {
 
   text-align: center;
   font-size: 4rem;
+
+  font-style: italic;
 
   border: 2px solid #FFFFFF;
   border-radius: 20px;
