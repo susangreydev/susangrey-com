@@ -24,13 +24,13 @@ document.getElementById("profile_email_icon").addEventListener("click", emailScr
 document.getElementById("profile_img").addEventListener("click", expandProfileImage);
 lightbox.addEventListener("click", function() {
 
-        lightbox.style.display = "none";
+    lightbox.style.display = "none";
 
 });
 
 const expandedImage = document.createElement("img");
 expandedImage.src = "./0.png";
-expandedImage.style.maxHeight = "clamp(700px, 2vw, 900px)";
+expandedImage.style.maxHeight = "clamp(800px, 2vw, 1000px)";
 expandedImage.style.margin = "clamp(3rem, 2vw, 5rem)";
 expandedImage.style.border = "2px solid rgb(255, 255, 255)"
 expandedImage.style.borderRadius = "20px";
