@@ -2,7 +2,7 @@ function emailScript() {
 
     navigator.clipboard.writeText("contact@susangrey.com").then(alert("⚠️ CONTACT@SUSANGREY.COM COPIED TO CLIPBOARD ⚠️"));
 
-    window.location.href("mailto:contact@susangrey.com");
+    window.location("mailto:contact@susangrey.com");
 
 }
 
