@@ -189,7 +189,7 @@ body {
   padding: 2rem;
 
   text-align: center;
-  font-size: 4rem;
+  font-size: 5rem;
 
   font-style: italic;
 
@@ -216,6 +216,7 @@ body {
   height: 10rem;
 
   padding: 1.2rem 2rem;
+  margin: 2rem;
 
   background: linear-gradient(
     180deg,
