@@ -1,6 +1,83 @@
+a {
+
+  color: cyan;
+  text-decoration: underline;
+  
+}
+
 body {
 
-  background-color: #000000;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+
+  background-image: linear-gradient(#000000, #000022);
   color: white;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
+}
+
+#header_div {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-items: center;
+  align-items: center;
+
+  font-size: 2rem;
+
+  /*border: 2px solid yellow;*/
+
+}
+
+#banner {
+
+  display: flex;
+
+  justify-content: center;
+
+  width: 100%;
+
+  /*border: 2px solid red;*/
+
+}
+
+#banner_img {
+
+  width: 80%;
+
+  border-radius: 20px;
+
+}
+
+.profile_img {
+
+  height: 30%;
+  max-height: 300px;
+
+  margin: 3rem;
+
+  border-radius: 20px
+
+}
+
+#bio_wrapper {
+
+  display: flex;
+
+  margin: 2.5rem;
+
+  border: 2px solid white;
+  border-radius: 10px;
+  
+}
+
+#bio {
+
+  margin: 0 1.5rem 1.5rem 1.5rem;
+
+  font-size: 2rem;
+
 }
