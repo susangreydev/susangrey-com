@@ -48,7 +48,7 @@ body {
 
   margin-top: 2.5rem;
 
-  font-size: 2rem;
+  font-size: clamp(0.5rem, 1vw, 2rem);
 
 }
 
@@ -95,8 +95,8 @@ body {
 
 .profile_img {
 
-  height: 70%;
-  max-height: 400px;
+  height: clamp(20rem, 1vw, 50rem);
+  max-height: 500px;
 
   margin: 4rem 2rem 2rem 2rem;
 
@@ -107,7 +107,7 @@ body {
 
 #profile_email_icon {
 
-  font-size: 6rem;
+  font-size: clamp(4rem, 2vw, 6rem);
 
   width: 50%;
 
@@ -176,7 +176,7 @@ body {
 
   line-height: 4rem;
 
-  font-size: 3rem;
+  font-size: clamp(2rem, 1vw, 4rem);
 
 }
 
@@ -189,7 +189,7 @@ body {
   padding: 2rem;
 
   text-align: center;
-  font-size: 5rem;
+  font-size: clamp(3.5rem, 1vw, 5rem);
 
   font-style: italic;
 
@@ -225,7 +225,7 @@ body {
   );
 
   color: #FFFFFF;
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 2vw, 3rem);
   font-weight: 600;
 
   letter-spacing: 0.05rem;
@@ -327,7 +327,7 @@ body {
 
     margin: 4rem;
 
-    font-size: 3rem;
+    font-size: clamp(2.5rem, 2vw, 3rem);
 
   }
 
