@@ -69,12 +69,34 @@ body {
 
 }
 
+#bio_wrapper {
+
+  display: flex;
+
+  margin: 2.5rem;
+
+  border: 2px solid white;
+  border-radius: 10px;
+  
+}
+
+#bio_hero_container {
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  border-right: 2px solid #FFFFFF;
+
+}
+
 .profile_img {
 
   height: 70%;
   max-height: 400px;
 
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 4rem 2rem 2rem 2rem;
 
   border: 2px solid white;
   border-radius: 20px;
@@ -136,28 +158,6 @@ body {
 
 }
 
-#bio_wrapper {
-
-  display: flex;
-
-  margin: 2.5rem;
-
-  border: 2px solid white;
-  border-radius: 10px;
-  
-}
-
-#bio_hero_container {
-
-  display: flex;
-  flex-direction: column;
-
-  text-align: center;
-
-  border-right: 2px solid #FFFFFF;
-
-}
-
 #bio {
 
   display: flex;
@@ -182,7 +182,7 @@ body {
 
   width: 80%;
 
-  margin: 3rem 1rem 1rem 0;
+  margin: 2rem 1rem 1rem 0;
 
   padding: 2rem;
 
