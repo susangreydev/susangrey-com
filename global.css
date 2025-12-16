@@ -199,7 +199,7 @@ body {
 
   width: 50%;
 
-  margin: 5rem;
+  margin: 0 0 5rem 0;
 
   text-align: center;
   font-size: clamp(4rem, 1vw, 6rem);
