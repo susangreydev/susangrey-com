@@ -336,7 +336,7 @@ body {
 
   #bio {
 
-    font-size: clamp(2rem, 1vw, 4rem);
+    font-size: clamp(3rem, 1vw, 4rem);
 
   }
 
