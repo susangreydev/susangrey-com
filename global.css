@@ -81,3 +81,33 @@ body {
   font-size: 2rem;
 
 }
+
+
+
+@media (orientation: portrait) {
+
+  #bio_wrapper {
+
+    flex-direction: column;
+
+    align-items: center;
+
+  }
+
+  #bio {
+
+    text-align: center;
+
+  }
+
+}
+
+@media (orientation: landscape) {
+
+  #bio_wrapper {
+
+    flex-direction: row;
+    
+  }
+
+}
