@@ -193,7 +193,7 @@ body {
 
   font-style: italic;
 
-  border: 2px solid #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
 
 }
@@ -326,7 +326,7 @@ body {
     width: 90%;
 
     margin: 4rem;
-    
+
     font-size: 3rem;
 
   }
