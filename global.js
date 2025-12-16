@@ -32,7 +32,7 @@ const expandedImage = document.createElement("img");
 expandedImage.src = "./0.png";
 expandedImage.style.maxHeight = "clamp(800px, 2vw, 1000px)";
 expandedImage.style.margin = "clamp(3rem, 2vw, 5rem)";
-expandedImage.style.border = "2px solid rgba(255, 255, 255, 0.25)"
+expandedImage.style.border = "2px solid rgba(255, 255, 255, 0.08)"
 expandedImage.style.borderRadius = "20px";
 expandedImage.style.cursor = "pointer";
 
