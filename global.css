@@ -112,7 +112,7 @@ body {
 
 #profile_img {
 
-  height: clamp(20rem, 1vw, 50rem);
+  height: clamp(25rem, 1vw, 50rem);
   max-height: 500px;
 
   margin: 4rem 2rem 2rem 2rem;
